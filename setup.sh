@@ -9,3 +9,4 @@ echo -e "Do you want to procede with automatic instalation? y/n (default y): \c"
 [[ $proced == "y" || $proced == "Y" || $proced == "" ]] && echo "proceding with automated instalation" ; proced=y || echo " ensure that all package is installed"
 
 
+
